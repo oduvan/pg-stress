@@ -1,3 +1,5 @@
+### My Macbook
+
 INTERNAL:
 
 pg_stress-python-1    | ==========
@@ -39,3 +41,68 @@ pg_stress-python-1    | Number of insert queries: 338
 pg_stress-python-1    | Average insert execution time: 0.018949 seconds
 pg_stress-python-1    | Max insert execution time: 0.129441 seconds
 pg_stress-python-1    | Median insert execution time: 0.010637 seconds
+
+### server on ubuntu 20.02
+
+NO:
+
+python_1    | ==========
+python_1    | Stress test: select_name
+python_1    | Number of select_name queries: 354
+python_1    | Average select_name execution time: 0.944130 seconds
+python_1    | Max select_name execution time: 1.764480 seconds
+python_1    | Median select_name execution time: 0.786719 seconds
+python_1    | ==========
+python_1    | Stress test: select_value
+python_1    | Number of select_value queries: 332
+python_1    | Average select_value execution time: 0.470163 seconds
+python_1    | Max select_value execution time: 0.942721 seconds
+python_1    | Median select_value execution time: 0.379163 seconds
+python_1    | ==========
+python_1    | Stress test: insert
+python_1    | Number of insert queries: 314
+python_1    | Average insert execution time: 0.004330 seconds
+python_1    | Max insert execution time: 0.044192 seconds
+python_1    | Median insert execution time: 0.001061 seconds
+
+INTERNAL:
+
+python_1    | ==========
+python_1    | Stress test: select_name
+python_1    | Number of select_name queries: 318
+python_1    | Average select_name execution time: 1.005531 seconds
+python_1    | Max select_name execution time: 1.831668 seconds
+python_1    | Median select_name execution time: 0.805902 seconds
+python_1    | ==========
+python_1    | Stress test: select_value
+python_1    | Number of select_value queries: 339
+python_1    | Average select_value execution time: 0.472074 seconds
+python_1    | Max select_value execution time: 0.919191 seconds
+python_1    | Median select_value execution time: 0.372407 seconds
+python_1    | ==========
+python_1    | Stress test: insert
+python_1    | Number of insert queries: 343
+python_1    | Average insert execution time: 0.003691 seconds
+python_1    | Max insert execution time: 0.037957 seconds
+python_1    | Median insert execution time: 0.000942 seconds
+
+HOSTED:
+
+python_1    | ==========
+python_1    | Stress test: select_name
+python_1    | Number of select_name queries: 340
+python_1    | Average select_name execution time: 0.962482 seconds
+python_1    | Max select_name execution time: 1.773397 seconds
+python_1    | Median select_name execution time: 0.793204 seconds
+python_1    | ==========
+python_1    | Stress test: select_value
+python_1    | Number of select_value queries: 362
+python_1    | Average select_value execution time: 0.489911 seconds
+python_1    | Max select_value execution time: 0.926564 seconds
+python_1    | Median select_value execution time: 0.408333 seconds
+python_1    | ==========
+python_1    | Stress test: insert
+python_1    | Number of insert queries: 298
+python_1    | Average insert execution time: 0.003830 seconds
+python_1    | Max insert execution time: 0.039046 seconds
+python_1    | Median insert execution time: 0.001048 seconds
