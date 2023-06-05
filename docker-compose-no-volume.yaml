@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  stressdb:
+    image: 'bitnami/postgresql:13'
+
+    environment:
+      - POSTGRESQL_USERNAME=my_user
+      - POSTGRESQL_DATABASE=my_database
+      - ALLOW_EMPTY_PASSWORD=yes
+
+    volumes:
+      - ./init_db.sql:/init_db.sql
+      - ./init_db.sh:/docker-entrypoint-initdb.d/init_db.sh
+    ports:
+      - 5432:5432

@@ -1,0 +1,41 @@
+INTERNAL:
+
+pg_stress-python-1    | ==========
+pg_stress-python-1    | Stress test: select_name
+pg_stress-python-1    | Number of select_name queries: 335
+pg_stress-python-1    | Average select_name execution time: 2.489010 seconds
+pg_stress-python-1    | Max select_name execution time: 4.736464 seconds
+pg_stress-python-1    | Median select_name execution time: 2.047138 seconds
+pg_stress-python-1    | ==========
+pg_stress-python-1    | Stress test: select_value
+pg_stress-python-1    | Number of select_value queries: 323
+pg_stress-python-1    | Average select_value execution time: 0.932571 seconds
+pg_stress-python-1    | Max select_value execution time: 1.959776 seconds
+pg_stress-python-1    | Median select_value execution time: 0.757856 seconds
+pg_stress-python-1    | ==========
+pg_stress-python-1    | Stress test: insert
+pg_stress-python-1    | Number of insert queries: 342
+pg_stress-python-1    | Average insert execution time: 0.005652 seconds
+pg_stress-python-1    | Max insert execution time: 0.045126 seconds
+pg_stress-python-1    | Median insert execution time: 0.001903 seconds
+
+HOSTED:
+
+pg_stress-python-1    | ==========
+pg_stress-python-1    | Stress test: select_name
+pg_stress-python-1    | Number of select_name queries: 349
+pg_stress-python-1    | Average select_name execution time: 6.258368 seconds
+pg_stress-python-1    | Max select_name execution time: 49.019295 seconds
+pg_stress-python-1    | Median select_name execution time: 5.122039 seconds
+pg_stress-python-1    | ==========
+pg_stress-python-1    | Stress test: select_value
+pg_stress-python-1    | Number of select_value queries: 313
+pg_stress-python-1    | Average select_value execution time: 4.162916 seconds
+pg_stress-python-1    | Max select_value execution time: 49.004526 seconds
+pg_stress-python-1    | Median select_value execution time: 3.878654 seconds
+pg_stress-python-1    | ==========
+pg_stress-python-1    | Stress test: insert
+pg_stress-python-1    | Number of insert queries: 338
+pg_stress-python-1    | Average insert execution time: 0.018949 seconds
+pg_stress-python-1    | Max insert execution time: 0.129441 seconds
+pg_stress-python-1    | Median insert execution time: 0.010637 seconds

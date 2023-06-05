@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+
+  python:
+    build: .
+    volumes:
+      - .:/app
+    depends_on:
+      - stressdb
+    tty: true
+    stdin_open: true
+    command: >
+      /bin/bash -c "until pg_isready -h stressdb -p 5432 -d my_database -U my_user; do sleep 3; done;
+      python test.py"
